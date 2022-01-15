@@ -14,4 +14,4 @@ file_list = [
             ]
 subprocess.call(['git', 'add', '-A'])
 subprocess.call(['git', 'commit', '-m', '{}'.format(commit_message)])
-subprocess.call(['git', 'push', 'https://{}@github.com/user-name/repo.git'.format(token)])
+subprocess.call(['git', 'push', 'https://{}@github.com/cavernicola/phishing-feeds-'.format(token)])
