@@ -15,4 +15,4 @@ file_list = [
 subprocess.call(['git', 'add', '-A'])
 subprocess.call(['git', 'commit', '-m', '{}'.format(commit_message)])
 #subprocess.call(['git', 'push', 'https://{}@github.com/cavernicola/phishing-feeds-'.format(token)])
-subprocess.call("git push --set-upstream https://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@github.com/cavernicola/phishing-feeds- master")
+subprocess.call(['git', 'push', '--set-upstream', 'https://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@github.com/cavernicola/phishing-feeds- master'])
